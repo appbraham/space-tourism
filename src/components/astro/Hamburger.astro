@@ -1,0 +1,26 @@
+---
+
+---
+
+<label for="hamburger"class="peer group z-50 cursor-pointer transition md:hidden">
+  <input type="checkbox" id="hamburger" class="hidden" />
+  <div class="flex flex-col gap-[6px] justify-center w-6 h-6">
+    <span class="block w-full h-[3px] bg-lightblue origin-left transition group-has-[:checked]:rotate-45"></span>
+    <span class="block w-full h-[3px] bg-lightblue transition group-has-[:checked]:opacity-0"></span>
+    <span class="block w-full h-[3px] bg-lightblue origin-left transition group-has-[:checked]:-rotate-45"></span>
+  </div>
+</label>
+
+<div class="fixed hidden w-64 top-0 bottom-0 z-40 bg-gray-700/30 backdrop-blur-lg peer-has-[:checked]:right-0 peer-has-[:checked]:block 
+            md:static md:block md:w-fit">
+
+  <ul class="relative flex flex-col gap-4 pl-8 pt-28 font-barlow-condensed tracking-menu-space 
+      md:flex-row md:pt-0 md:px-10 md:gap-10
+      lg:text-menu lg:gap-16 lg:px-124px">
+      
+    <li class="h-10 flex items-center border-transparent border-r-4 hover:border-r-lightblue md:border-r-0 md:border-b-4 md:hover:border-b-lightblue md:h-menu-height"><a href="/"><span class="font-bold mr-2 md:hidden lg:inline">00</span>HOME</a></li>
+    <li class="h-10 flex items-center border-transparent border-r-4 hover:border-r-lightblue md:border-r-0 md:border-b-4 md:hover:border-b-lightblue md:h-menu-height"><a href="/destination"><span class="font-bold mr-2 md:hidden lg:inline">01</span>DESTINATION</a></li>
+    <li class="h-10 flex items-center border-transparent border-r-4 hover:border-r-lightblue md:border-r-0 md:border-b-4 md:hover:border-b-lightblue md:h-menu-height"><a href="/crew"><span class="font-bold mr-2 md:hidden lg:inline">02</span>CREW</a></li>
+    <li class="h-10 flex items-center border-transparent border-r-4 hover:border-r-lightblue md:border-r-0 md:border-b-4 md:hover:border-b-lightblue md:h-menu-height"><a href="technology"><span class="font-bold mr-2 md:hidden lg:inline">03</span>TECHNOLOGY</a></li>
+  </ul>
+</div>

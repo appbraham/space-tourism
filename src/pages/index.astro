@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Welcome to Astro.">
+      <section class="flex flex-col gap-16 items-center lg:flex-row lg:justify-between lg:px-124px">
+        <article class="flex flex-col items-center max-w-home-article
+                    lg:max-w-home-article-desktop">
+          <h2 class="font-barlow md:text-xl md:tracking-home-subtitle lg:text-subtitle-desktop">SO, YOU WANT TO TRAVEL TO</h2>
+          <h1 class="font-bellefair text-title-mobile md:text-title-desktop">SPACE</h1>
+          <p class="max-w-paragraph-mobile text-paragraph-mobile text-center leading-paragraph-mobile
+                md:max-w-paragraph-tablet md:leading-paragraph-tablet md:text-base
+                lg:leading-paragraph-desktop lg:text-lg lg:text-left">
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </p>
+        </article>
+
+        <a href="/destination"  
+                 class="grid items-center font-bellefair text-xl text-darky text-center size-circle-mobile
+                 bg-white rounded-full cursor-pointer transition-all
+                 hover:outline hover:outline-[30px] hover:outline-white/20
+                 md:size-circle-tablet md:text-[32px] md:hover:outline-[40px]
+                 lg:size-circle-desktop lg:hover:outline-[88px]"
+            >EXPLORER</a>  
+        </section>      
+</Layout>

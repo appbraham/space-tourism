@@ -1,0 +1,33 @@
+---
+import "@fontsource/bellefair";
+import '@fontsource/barlow';
+import "@fontsource/barlow-condensed";
+import Header from "../components/astro/Header.astro";
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="max-w-desktop min-h-dvh flex flex-col gap-6 p-6 text-white bg-crew-mobile bg-cover bg-no-repeat
+               md:bg-crew-tablet md:gap-16 md:mx-auto md:p-0 md:pl-6
+               lg:bg-crew-desktop lg:gap-20 lg:pt-12">
+    <Header />
+    <main class="flex-grow flex flex-col">
+      <slot />
+    </main>
+  </body>  
+</html>
