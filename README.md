@@ -43,6 +43,10 @@ Users should be able to:
 - Mobile-first workflow
 
 ### Run project
+1. Clone the project: https://github.com/appbraham/space-tourism.git
+2. ```npm install```
+3. Rename **.env.template** file to **.env**
+4. ```npm run dev```
 
 All commands are run from the root of the project, from a terminal:
 
