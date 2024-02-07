@@ -77,6 +77,9 @@ export default {
         "tech-mobile": "url('src/assets/technology/background-technology-mobile.jpg')",
         "tech-tablet": "url('src/assets/technology/background-technology-tablet.jpg')",
         "tech-desktop": "url('src/assets/technology/background-technology-desktop.jpg')",
+        //Technology
+        "404-mobile": "url('src/assets/404/mobile.webp')",
+        "404-tablet": "url('src/assets/404/tablet.webp')",
       },
       padding: {
         "124px": "124px",

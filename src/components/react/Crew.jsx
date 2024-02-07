@@ -1,7 +1,7 @@
 import { useState } from "react";
 import CrewTab from "./CrewTab";
 
-const response = await fetch("http://192.168.1.48:4321/data.json");
+const response = await fetch(import.meta.env.PUBLIC_JSON);
 const resData = await response.json();
 
 export default function Crew() {
