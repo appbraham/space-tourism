@@ -59,27 +59,27 @@ export default {
       },
       backgroundImage: {
         //Background
-        "home-mobile": "url('src/assets/home/background-home-mobile.jpg')",
-        "home-tablet": "url('src/assets/home/background-home-tablet.jpg')",
-        "home-desktop": "url('src/assets/home/background-home-desktop.jpg')",
+        "home-mobile": "url('./src/assets/home/background-home-mobile.jpg')",
+        "home-tablet": "url('./src/assets/home/background-home-tablet.jpg')",
+        "home-desktop": "url('./src/assets/home/background-home-desktop.jpg')",
         //Destination
         "destination-mobile":
-          "url('src/assets/destination/background-destination-mobile.jpg')",
+          "url('./src/assets/destination/background-destination-mobile.jpg')",
         "destination-tablet":
-          "url('src/assets/destination/background-destination-tablet.jpg')",
+          "url('./src/assets/destination/background-destination-tablet.jpg')",
         "destination-desktop":
-          "url('src/assets/destination/background-destination-desktop.jpg')",
+          "url('./src/assets/destination/background-destination-desktop.jpg')",
         //Crew
-        "crew-mobile": "url('src/assets/crew/background-crew-mobile.jpg')",
-        "crew-tablet": "url('src/assets/crew/background-crew-tablet.jpg')",
-        "crew-desktop": "url('src/assets/crew/background-crew-desktop.jpg')",
+        "crew-mobile": "url('./src/assets/crew/background-crew-mobile.jpg')",
+        "crew-tablet": "url('./src/assets/crew/background-crew-tablet.jpg')",
+        "crew-desktop": "url('./src/assets/crew/background-crew-desktop.jpg')",
         //Technology
-        "tech-mobile": "url('src/assets/technology/background-technology-mobile.jpg')",
-        "tech-tablet": "url('src/assets/technology/background-technology-tablet.jpg')",
-        "tech-desktop": "url('src/assets/technology/background-technology-desktop.jpg')",
+        "tech-mobile": "url('./src/assets/technology/background-technology-mobile.jpg')",
+        "tech-tablet": "url('./src/assets/technology/background-technology-tablet.jpg')",
+        "tech-desktop": "url('./src/assets/technology/background-technology-desktop.jpg')",
         //Technology
-        "404-mobile": "url('src/assets/404/mobile.webp')",
-        "404-tablet": "url('src/assets/404/tablet.webp')",
+        "404-mobile": "url('./src/assets/404/mobile.webp')",
+        "404-tablet": "url('./src/assets/404/tablet.webp')",
       },
       padding: {
         "124px": "124px",
